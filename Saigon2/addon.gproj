@@ -1,0 +1,8 @@
+GameProject {
+ ID "Saigon2"
+ GUID "6651466845228F8B"
+ TITLE "Saigon2"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

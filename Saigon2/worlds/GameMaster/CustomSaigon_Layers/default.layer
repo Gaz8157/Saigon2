@@ -1,0 +1,38 @@
+SCR_MapEntity MapEntity : "{731564B66F91B107}Prefabs/World/Game/MapEntity.et" {
+ coords 7368.739 5 7383.999
+ "Map Geometry Data" "{A9526FE714D0DDB5}Worlds/Terrain.topo"
+ "Satellite background image" "{DEBD737660E8A1C0}UI/Textures/Map/world/Terrain.edds"
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "MapEntity: "\
+   "Set up map textures"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 7368.739 5 7381.999
+}
+SCR_GameModeEditor GameMode_Editor_Full : "{DA3986AF1B5032B7}Prefabs/MP/Modes/Editor/GameMode_Editor_Full.et" {
+ coords 7368.739 5 7380.999
+}
+Vehicle M1025_armed_M2HB1 : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ coords 5703.771 58.281 10458.818
+ angleY -64.913
+}
+Vehicle M151A2_M2HB_MERDC1 : "{5168FEA3054D6D15}Prefabs/Vehicles/Wheeled/M151A2/M151A2_M2HB_MERDC.et" {
+ coords 5702.234 58.281 10453.651
+ angleY -65.301
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 5690.477 58.282 10470.287
+}
+Vehicle M151A2_transport_MERDC1 : "{94DE32169691AC34}Prefabs/Vehicles/Wheeled/M151A2/M151A2_transport_MERDC.et" {
+ coords 5700.306 58.281 10448.136
+ angleY -67.32
+}
