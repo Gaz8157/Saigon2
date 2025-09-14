@@ -1,0 +1,21 @@
+$grp GenericEntity : "{27941CDF3E7E1A5F}Prefabs/MP/Campaign/CampaignRemnantsSupplyDepot.et" {
+ {
+  components {
+   SCR_CampaignSuppliesComponent "{59F288D533FE66DD}" {
+    m_iSupplies 3000
+    m_iSuppliesMax 4500
+   }
+   SCR_MapDescriptorComponent "{59F288D5B5D9C274}" {
+    DisplayName "SUPRIMENTOS"
+   }
+  }
+  coords 4279.128 7.837 1747.988
+  angleX 2.115
+  angleY -25.476
+  angleZ -5.941
+ }
+ {
+  coords 1024.715 2.413 2863.398
+  angleY 95.073
+ }
+}

@@ -1,0 +1,32 @@
+GenericEntity MOB_USA : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ components {
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bCanBeHQ 1
+   m_sBaseName "US AIR BASE"
+   m_sBaseNameUpper "US"
+   m_sMapLocationName "US AEROPORTO"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   Enabled 0
+  }
+  SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+   m_iSupplies 5000
+   m_iSuppliesMax 10000
+  }
+  SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+   Transceivers {
+    RelayTransceiver "{5C669673E8C94083}" {
+     "Transmitting Range" 877.3
+    }
+   }
+   m_bIsSource 1
+  }
+  SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+   "faction affiliation" "US"
+  }
+ }
+ coords 3313.983 80.666 474.647
+ angleX 0.146
+ angleY -80.641
+ angleZ -0.883
+}

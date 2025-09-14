@@ -1,0 +1,207 @@
+$grp GenericEntity : "{38464762C5D374D2}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_01_Campaign.et" {
+ {
+  coords 4269.981 7.17 1761.545
+  angleX 0.12
+  angleY 47.723
+  angleZ -2.528
+ }
+ {
+  coords 1017.036 2.406 2858.575
+  angleY -50.038
+  {
+   GenericEntity {
+    ID "5D1ED92956CA169F"
+    {
+     DecalEntity {
+      ID "56DEFDB4A9499F9B"
+      coords 0 -0.066 0
+      angleX -0.895
+      angleY 133.154
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{78E7F5C4FFC687D5}Prefabs/MP/Campaign/SupplyDepots/SupplyCache_S_FIA_02_Campaign.et" {
+ coords 4276.171 7.638 1754.758
+ angleX -2.181
+ angleY -14.536
+ angleZ -1.283
+ {
+  GenericEntity {
+   ID "5D4539382387133B"
+   {
+    GenericEntity {
+     ID "5D4539385B63D7B4"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 4.5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D4539385B63D7B1"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 4.5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D4539385B63A8A5"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 4.5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D4539385B63D7BE"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 4.5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D4539385B63D7B0"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 4.5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D4539385B63A85B"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 4.5
+        }
+       }
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D4539385B63D7B7"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 4.5
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+GenericEntity : "{AB1A97B1BAE8C395}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_01.et" {
+ coords 1026.558 2.406 2866.147
+ angleY -16.837
+ {
+  GenericEntity {
+   ID "5D45393FCDDCFA0B"
+   {
+    GenericEntity {
+     ID "5D45393FFA2FEF00"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 1.5
+        }
+       }
+      }
+     }
+     coords 0.673 -0.295 -1.339
+    }
+    GenericEntity {
+     ID "5D45393FFA2FEF0E"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 1.5
+        }
+       }
+      }
+     }
+     coords 0.526 -0.295 0.026
+    }
+    GenericEntity {
+     ID "5D45393FFA2FEF0F"
+     components {
+      SCR_ResourceComponent "{5D247A59598D71AE}" {
+       m_aConsumers {
+        SCR_ResourceConsumer "{5D3CDAE76719C077}" {
+         m_fBuyMultiplier 1.5
+        }
+       }
+      }
+     }
+     coords 0.593 -0.295 1.436
+    }
+    GenericEntity {
+     ID "5D45393FFA2FEF0B"
+     {
+      GenericEntity {
+       ID "5D30E783A28A7954"
+       coords 0 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393FFA2FEF07"
+     {
+      GenericEntity {
+       ID "5D30E7825153627D"
+       coords 0 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393FFA2FEF13"
+     coords 2.069 -0.295 1.263
+    }
+    GenericEntity {
+     ID "5D45393FFA2FEF02"
+     {
+      GenericEntity {
+       ID "5D30E783AAEB03FC"
+       coords 0 0 0
+      }
+     }
+    }
+    GenericEntity {
+     ID "5D45393FFA2FEF10"
+     coords 1.855 -0.295 0.026
+    }
+   }
+  }
+ }
+}

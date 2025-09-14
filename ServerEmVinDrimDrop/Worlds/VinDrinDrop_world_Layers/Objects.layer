@@ -1,0 +1,22 @@
+GenericEntity : "{7B3ACBB129222675}Prefabs/Structures/Military/CamoNets/FIA/CamoNet_ObservationPost_FIA_01_V2.et" {
+ coords 1740.951 5.186 3577.861
+ angleX 0.184
+ angleY 40.01
+ angleZ 0.859
+}
+$grp GenericEntity : "{CC5453CCC311603B}Prefabs/Props/Military/Sandbags/Sandbag_01_end_burlap.et" {
+ {
+  coords 4447.207 62.973 1619.264
+  angleX 0.149
+  angleY 89.738
+  angleZ 0.226
+ }
+ {
+  coords 4447.228 63.676 1619.278
+  angleY 87.182
+ }
+ {
+  coords 4447.161 64.376 1619.304
+  angleY 92.022
+ }
+}

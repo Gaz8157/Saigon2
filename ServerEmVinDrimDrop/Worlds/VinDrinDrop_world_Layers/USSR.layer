@@ -1,0 +1,835 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ ESTATUA_DE_NALAY_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_bIsControlPoint 1
+    m_sBaseName "ESTATUA DE NALAY"
+    m_sBaseNameUpper "ESTATUA DE NALAY"
+    m_sMapLocationName "ESTATUA DE NALAY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 745.5
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 2566.448 80.063 746.871
+  angleY -179.372
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ MOB_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 20
+    m_bCanBeHQ 1
+    m_sBaseName "MOB_USSR"
+    m_sBaseNameUpper "MOB_USSR"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    Enabled 0
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2064.6
+     }
+    }
+    m_bIsSource 1
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 1445.962 3 3128.202
+  angleY -78.421
+ }
+ SONTAY_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_bIsControlPoint 1
+    m_sBaseName "SON TAY"
+    m_sBaseNameUpper "SON TAY"
+    m_sMapLocationName "SON TAY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 819.2
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 2811.236 80.326 1362.216
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ VUNGTAU_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_bIsControlPoint 1
+    m_sBaseName "VUNG TAU"
+    m_sBaseNameUpper "VUNG TAU"
+    m_sMapLocationName "VUNG TAU"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 2303
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 1956.42 1.923 1818.112
+  angleX 2.678
+  angleY 0.126
+  angleZ 2.687
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ CAMRANH_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 50
+    m_bIsControlPoint 1
+    m_sBaseName "CAM RANH"
+    m_sBaseNameUpper "CAM RANH"
+    m_sMapLocationName "CAM RANH"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1487.8
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 550.185 38.719 1368.013
+  angleY -1.001
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ QUI_NHON_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 35
+    m_bIsControlPoint 1
+    m_sBaseName "QUI NHON"
+    m_sBaseNameUpper "QUI NHON"
+    m_sMapLocationName "QUI NHON"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 381.399 5.822 224.99
+  angleX -1.938
+  angleY 41.026
+  angleZ -0.5
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ BEN_SUC_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 125
+    m_bIsControlPoint 1
+    m_sBaseName "BEN SUC"
+    m_sBaseNameUpper "BEN SUC"
+    m_sMapLocationName "BEN SUC"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 909.2
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 4086.905 7.98 792.705
+  angleX 1.921
+  angleY 45.703
+  angleZ -1.874
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   $grp GenericEntity : "{A73205DEA8361F26}Prefabs/Systems/AmbientPatrol/AmbientPatrolSpawnpoint_USSR.et" {
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_eGroupType TEAM_AT
+      }
+     }
+     coords -61.712 2.208 37.367
+     angleX 1.792
+     angleY -45.692
+     angleZ 4.472
+     {
+      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+       coords 22.309 0.64 -38.364
+       angleX -1.778
+       angleY 0.237
+       angleZ -4.478
+       CompletionRadius 77.9
+      }
+     }
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_eGroupType TEAM_AT
+      }
+     }
+     coords -100.658 8.135 8.048
+     angleX 4.742
+     angleY -47.788
+     angleZ 6.964
+     {
+      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+       coords 83.091 7.633 -75.381
+       angleX -4.752
+       angleY 0.477
+       angleZ -7.871
+       CompletionRadius 73.9
+      }
+     }
+    }
+    {
+     components {
+      SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+       m_eGroupType TEAM_AT
+      }
+     }
+     coords -109.555 10.08 -36.243
+     angleX 8.847
+     angleY -45.057
+     angleZ 5.407
+     {
+      SCR_DefendWaypoint : "{2A81753527971941}Prefabs/AI/Waypoints/AIWaypoint_Defend_CP.et" {
+       coords 45.15 -1.602 17.138
+       angleX -6.224
+       angleY 0.777
+       angleZ 2.602
+       CompletionRadius 35.6
+      }
+     }
+    }
+   }
+  }
+ }
+ DONGXOAI_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 85
+    m_bIsControlPoint 1
+    m_sBaseName "DONG XOAI"
+    m_sBaseNameUpper "DONG XOAI"
+    m_sMapLocationName "DONG XOAI"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 320.4
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 2743.637 236.281 2108.164
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ COSTA_DE_SHIMARO_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "COSTA DE SHIMARO"
+    m_sBaseNameUpper "COSTA DE SHIMARO"
+    m_sMapLocationName "COSTA DE SHIMARO"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1790.9
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 4357.187 1.512 3066.893
+  angleX 1.85
+  angleY -94.138
+  angleZ 0.763
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ BUNKER_HANOI_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 35
+    m_bIsControlPoint 1
+    m_sBaseName "BUNKER HANÓI"
+    m_sBaseNameUpper "BUNKER HANÓI"
+    m_sMapLocationName "BUNKER HANÓI"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 1011.8
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 2618.358 8.594 3012.541
+  angleY -98.816
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ QUEDA_DO_AVIAO_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 70
+    m_bIsControlPoint 1
+    m_sBaseName "QUEDA DO AVIÃO"
+    m_sBaseNameUpper "QUEDA DO AVIÃO"
+    m_sMapLocationName "QUEDA DO AVIÃO"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 320
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 644.3
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 1633.712 23.48 2904.515
+  angleX 5.8
+  angleY 94.578
+  angleZ -16.077
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ PANTANOS_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 25
+    m_bIsControlPoint 1
+    m_sBaseName "PANTANOS CAMBOJA"
+    m_sBaseNameUpper "PANTANOS CAMBOJA"
+    m_sMapLocationName "PANTANOS CAMBOJA"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 348.8
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 399.891 4.114 2788.08
+  angleX 2.291
+  angleY 95.45
+  angleZ -5.159
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ LIU_ROY_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bIsControlPoint 1
+    m_sBaseName "LIU-ROY"
+    m_sBaseNameUpper "LIU-ROY"
+    m_sMapLocationName "LIU-ROY"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 583.3
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 102.41 46.851 3652.503
+  angleX -5.043
+  angleY 73.436
+  angleZ -1.293
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ TAI_CHI_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 65
+    m_bIsControlPoint 1
+    m_sBaseName "BASE DE TAI CHI"
+    m_sBaseNameUpper "BASE DE TAI CHI"
+    m_sMapLocationName "BASE DE TAI CHI"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 450
+    m_iSuppliesMax 600
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 570.3
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 573.622 4.188 3317.353
+  angleX -1.788
+  angleY -0.056
+  angleZ 1.791
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+ TEMPLO_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 40
+    m_bIsControlPoint 1
+    m_sBaseName "TEMPLO QUANG NAM"
+    m_sBaseNameUpper "TEMPLO QUANG NAM"
+    m_sMapLocationName "TEMPLO QUANG NAM"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CampaignSuppliesComponent "{5C6696724F524DA2}" {
+    m_iSupplies 450
+    m_iSuppliesMax 750
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 674.7
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 217.37 6.067 4009.53
+  angleX 0.964
+  angleY -105.893
+  angleZ -1.395
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords -2.77 -7.026 -4.77
+    angleX 1.067
+    angleY 51.343
+    angleZ -0.257
+   }
+  }
+ }
+ VIN_DRIN_DOP_URSS {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 75
+    m_bIsControlPoint 1
+    m_sBaseName "VILAREJO VIN DRIN DOP"
+    m_sBaseNameUpper "VILAREJO VIN DRIN DOP"
+    m_sMapLocationName "VILAREJO VIN DRIN DOP"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_CoverageRadioComponent "{5C669673C2A82A2B}" {
+    Transceivers {
+     RelayTransceiver "{5C669673E8C94083}" {
+      "Transmitting Range" 420
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 1716.994 5.666 3600.683
+  angleX -0.062
+  angleY 86.548
+  angleZ 0.336
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    coords 0.579 0 0.553
+    angleY 48.553
+   }
+  }
+ }
+ CAMBOJA_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 25
+    m_bIsControlPoint 1
+    m_sBaseName "CAMBOJA"
+    m_sBaseNameUpper "CAMBOJA"
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fMaximumSeizingTime 360
+    m_fMinimumSeizingTime 300
+   }
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 647.933 160.33 4471.482
+  angleX -0.896
+  angleY 0.002
+  angleZ 8.004
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    components {
+     SCR_FactionAffiliationComponent "{5CCEC6039525B984}" {
+      "faction affiliation" "USSR"
+     }
+    }
+   }
+  }
+ }
+}

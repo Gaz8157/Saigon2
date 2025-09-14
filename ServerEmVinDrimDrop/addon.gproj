@@ -1,0 +1,22 @@
+GameProject {
+ ID "ServerEmVinDrimDrop"
+ GUID "66566A5611966076"
+ TITLE "ServerEmVinDrimDrop"
+ Dependencies {
+  "58D0FB3206B6F859" "64455057600FB2A5"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

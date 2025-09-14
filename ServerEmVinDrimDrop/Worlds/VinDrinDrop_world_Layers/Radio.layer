@@ -1,0 +1,57 @@
+$grp GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ RADIO1_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "TORRE DE NÁGAI"
+    m_sBaseNameUpper "TORRE DE NÁGAI"
+    m_sMapLocationName "TORRE DE NÁGAI"
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 2547.5
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5C727AD73024FB13}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 4448.489 63.817 1619.991
+  angleX -1.418
+  angleY 87.635
+  angleZ -3.664
+ }
+ RADIO2_USSR {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5C727AD73024FB00}" {
+    m_sBaseName "RADIO SUBTERRANEO"
+    m_sBaseNameUpper "RADIO SUBTERRANEO"
+    m_sMapLocationName "RADIO SUBTERRANEO"
+   }
+   SCR_CoverageRadioComponent "{5C727AD73024FB2A}" {
+    Transceivers {
+     RelayTransceiver "{5C727AD73024FB39}" {
+      "Transmitting Range" 1859.3
+     }
+    }
+   }
+   SCR_FactionAffiliationComponent "{5C727AD73024FB13}" {
+    "faction affiliation" "USSR"
+   }
+  }
+  coords 1350.802 2.365 3515.701
+  angleY 85.428
+  {
+   GenericEntity {
+    ID "5C727AD606EB0C1C"
+    {
+     GenericEntity {
+      ID "6282C0828CE8416F"
+      coords 0 -148.6 0
+     }
+    }
+   }
+  }
+ }
+}
